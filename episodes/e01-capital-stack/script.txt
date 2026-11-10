@@ -1,0 +1,277 @@
+# EPISODE 1 — The Capital Stack: Who's Actually Lending in Late 2026
+# COLD OPEN
+MAYA: Here's a number that stopped me. In the third quarter of this year, almost half of all non-agency commercial real estate loans that CBRE closed came from lenders that aren't banks. Debt funds. Mortgage REITs. Not JPMorgan, not Wells Fargo. Forty-eight percent.
+
+DEV: And a year earlier it was thirty-seven percent. Go back to the first quarter of 2025 and it was under twenty. So in about eighteen months, the center of gravity in commercial real estate lending moved. If you want to understand who gets deals done right now, who sets the terms, and frankly who's hiring, you have to understand that shift.
+
+MAYA: So that's today. The capital stack. Every layer of money that goes into a commercial real estate deal, who sits in each layer, what they get paid, what they can do to you when things go wrong, and who is actually writing the checks in late 2026.
+
+[MUSIC]
+
+# INTRO
+MAYA: Welcome to The CRE Grind, the show where we take one commercial real estate topic per episode and go deep enough that you could talk about it in an interview. I'm Maya.
+
+DEV: And I'm Dev. I spent the better part of my career on the lending side, first originating loans, and later on the other side of the table, working out loans that had gone bad. So I've seen the capital stack from the top and from the bottom.
+
+MAYA: Which is exactly why you're here. Here's the plan for today. First, we build the capital stack from scratch, layer by layer, with one example deal we'll carry all the way through. Second, we talk about who the lenders actually are, banks, life companies, the agencies, CMBS, debt funds, and what each one wants. Third, we look at the market right now, rates, delinquencies, the maturity wall. And fourth, rescue capital, because that's where a lot of the action is this year. Then we'll wrap with the five things you should remember.
+
+DEV: Sounds good. And I'll say up front, there's going to be some math, but it's all the kind you can do in your head.
+
+# SEGMENT 1 — BUILDING THE STACK
+MAYA: Okay, let's start with the picture. When people say "capital stack," what are they actually describing?
+
+DEV: Think of it literally as a stack of money, piled up to equal the total cost of a deal. At the bottom is the money that gets paid back first and has the most protection. At the top is the money that gets paid back last and has the most risk. The bottom layer is senior debt. The top layer is common equity. And in between you can have mezzanine debt and preferred equity.
+
+MAYA: And the key idea is that position determines everything. Risk, return, control.
+
+DEV: Exactly. The rule is: cash flows down the stack in order, and losses hit from the top down. When the property generates income, the senior lender gets paid first. Whatever's left goes to the next layer, and so on. When the property loses value, the equity gets wiped out first, then the preferred, then the mezz, and only after all of that is gone does the senior lender lose a dollar.
+
+MAYA: Let's make it concrete. Give me a deal.
+
+DEV: Let's say a sponsor is buying an apartment building in Jersey City. Purchase price, a hundred million dollars, to keep the math easy. The building produces six and a half million dollars of net operating income. N O I. That's rent and other income, minus operating expenses, before any debt payments.
+
+MAYA: So that's a six and a half percent cap rate.
+
+DEV: Right. N O I divided by price, six and a half over a hundred. Now, the sponsor doesn't want to write a hundred-million-dollar check. They go to a senior lender. Let's say the lender will go to sixty-five percent loan to value. That's a sixty-five million dollar senior loan.
+
+MAYA: And the remaining thirty-five million is equity.
+
+DEV: In the simplest version, yes. Sixty-five million of senior debt, thirty-five million of common equity. Two layers. That's the stack most people picture.
+
+MAYA: So why doesn't every deal look like that?
+
+DEV: Because thirty-five million is a lot of equity, and equity is the most expensive money in the stack. The sponsor might only have, say, twenty million they want to put in. Now there's a fifteen-million-dollar gap between what the senior lender will lend and what the sponsor wants to contribute. That gap is where mezzanine debt and preferred equity live.
+
+MAYA: Before we fill the gap, let's slow down on the senior lender. How do they decide sixty-five percent? Where does that number come from?
+
+DEV: Great question, and this is the most interview-relevant thing we'll say today. Lenders size loans using three tests, and the loan is the smallest amount that passes all three. The first is loan to value, L T V. Loan divided by the property's value. The second is debt service coverage ratio, D S C R. N O I divided by the annual debt payments. And the third is debt yield. N O I divided by the loan amount.
+
+MAYA: Walk me through each one with our numbers.
+
+DEV: L T V we've done. Sixty-five million over a hundred million, sixty-five percent. Now D S C R. Say the loan is interest only at six and a quarter percent. Annual interest on sixty-five million is about four million sixty-two thousand. N O I is six and a half million. Six and a half divided by four point oh six is about one point six. So the property earns about one point six times what it needs to pay the lender.
+
+MAYA: And the lender wants at least what?
+
+DEV: It depends on the lender and the property type, but for a stabilized apartment, something like one point two five to one point three five times is typical. And CBRE's latest numbers say the average debt service coverage on commercial loans they closed in the third quarter was one point three two. So one point six is comfortable.
+
+MAYA: And debt yield?
+
+DEV: Six and a half million of N O I divided by sixty-five million of loan. Ten percent. Debt yield is the lender's favorite stress test, because it doesn't care about the interest rate or the cap rate. It just asks: if I had to take this building back tomorrow, what return would I earn on my loan balance from the building's income? CBRE's average debt yield in the third quarter was nine and a half percent. So our deal is right in the zone.
+
+MAYA: Why does debt yield matter so much more after the last few years?
+
+DEV: Because L T V depends on value, and value depends on cap rates, and cap rates moved a lot when rates went up. A lender in 2021 might've underwritten a building at a four percent cap rate. Same income, cap rate goes to six percent, and suddenly the value is a third lower. The L T V that looked like sixty-five percent is now closer to a hundred. Debt yield would've warned you, because a loan sized at a five or six percent debt yield was always thin. That's one of the big lessons of this cycle.
+
+MAYA: Let's do the different property types, because I saw some interesting numbers from Trepp on that.
+
+DEV: Yeah, Trepp looked at CMBS issuance through July this year and the debt yields vary a lot by property type. Lodging was the highest, around twelve point seven percent. Retail around eleven point four. Office a little over ten. And multifamily was the thinnest, around eight point two percent, with the highest average L T V, about sixty-eight percent, and the lowest coverage, about one point three three times.
+
+MAYA: So hotels have to show the most income per dollar of loan.
+
+DEV: Because hotel income can swing month to month. There's no lease. Every room is re-rented every night. Lenders demand a bigger cushion. Multifamily is seen as the safest income stream, so lenders accept thinner margins. Trepp actually flagged that as a risk: multifamily has the smallest margin for error if rates stay high when those loans need to refinance.
+# SEGMENT 1 continued — MEZZ, PREF, COMMON
+MAYA: Okay, back to our Jersey City deal. Sixty-five million of senior debt. The sponsor wants to put in only twenty million. We have a fifteen-million-dollar gap. Option one: mezzanine debt. What is it, legally?
+
+DEV: Mezzanine debt is a loan, but it's not secured by the building. The senior lender already has the mortgage on the building. The mezz lender instead makes a loan to the entity that owns the entity that owns the building. And the collateral is a pledge of the ownership interests in that company.
+
+MAYA: So the mezz lender's collateral is the company, not the real estate.
+
+DEV: Right. And that has a huge practical consequence. If the borrower defaults on a mortgage, the senior lender has to foreclose, which in New York or New Jersey is a judicial process that can take a year or two, sometimes much longer. If the borrower defaults on a mezz loan, the mezz lender forecloses on personal property, the equity pledge, under the Uniform Commercial Code. That's a U C C foreclosure, and it can happen in a matter of weeks. The mezz lender steps into the shoes of the owner and now controls the building, subject to the senior loan.
+
+MAYA: Which is why the senior lender cares so much about who the mezz lender is.
+
+DEV: Exactly. And that's governed by the intercreditor agreement. That document is the rulebook between the senior lender and the mezz lender. It says things like: the mezz lender gets notice if the senior loan defaults, and has the right to cure it. The mezz lender can buy the senior loan at par in certain situations. And critically, the mezz lender can only foreclose and take over if it's a qualified transferee, meaning it has enough capital and experience to own the building, and it often has to replace the property manager with an approved one.
+
+MAYA: What does mezz cost right now?
+
+DEV: Advisors who place this kind of capital put all-in mezz pricing around eleven to sixteen percent as of mid-2026. It depends heavily on how deep in the stack it goes. Mezz that goes from sixty-five to seventy-five percent L T V is a very different risk than mezz going from sixty-five to eighty-five.
+
+MAYA: Option two: preferred equity. How is it different?
+
+DEV: Preferred equity is not a loan at all. It's an ownership interest in the property-owning company, but one with priority. The pref investor gets a preferred return, say twelve percent, paid before the common equity gets anything, and gets its capital back before the common equity does. Its rights come from the operating agreement of the joint venture, not from a loan document.
+
+MAYA: So if things go badly, what can a pref investor do?
+
+DEV: It depends entirely on how the operating agreement is written. Usually there are triggers. If the sponsor misses preferred payments, or doesn't pay off the pref by a certain date, the pref investor can take control of the venture, remove the sponsor as manager, and force a sale. That's sometimes called a change of control or a removal right. It can be fast, because there's no foreclosure. It's a contract right.
+
+MAYA: Why would a sponsor choose pref over mezz, or the other way around?
+
+DEV: A few reasons. One, some senior lenders simply don't allow mezzanine debt. The agencies, Fannie Mae and Freddie Mac, generally don't permit traditional mezz behind their loans, and many bank lenders don't either. So preferred equity becomes the only gap capital available. Two, pref can be structured more flexibly. Three, and this is the part people miss, the headline price isn't really the difference. Mid-2026 pricing for pref is roughly eight to fifteen percent, overlapping heavily with mezz. The real difference is what happens on default, and how fast.
+
+MAYA: I saw one analyst put it nicely, that the mezz versus pref decision is a control question disguised as a pricing question.
+
+DEV: That's exactly right. A pref deal with hard current pay and aggressive takeover triggers behaves like debt. A mezz loan with generous cure periods behaves more like equity. Read the documents, not the label.
+
+MAYA: Let's finish building our stack. Sixty-five million senior. Fifteen million of preferred equity at, say, twelve percent. Twenty million of common equity from the sponsor. What does the money look like each year?
+
+DEV: N O I is six and a half million. Senior interest at six and a quarter percent on sixty-five million is about four point oh six million. That leaves about two point four four million. The pref investor is owed twelve percent on fifteen million, which is one point eight million. Pay that, and you're left with about six hundred forty thousand for the common equity.
+
+MAYA: On twenty million invested. That's a three point two percent cash yield.
+
+DEV: Which is terrible on its own. So why would a sponsor do it? Because they're betting on growth. If they can raise N O I by fifteen or twenty percent through renovations and better management, almost all of that increase flows to the common equity, because the senior and the pref get fixed returns. Say N O I grows to seven and a half million. Now the common equity gets about one point six four million a year. That's about eight point two percent on twenty million. And when they sell, all the value increase above the debt and the pref goes to them.
+
+MAYA: That's leverage. It amplifies the upside.
+
+DEV: And it amplifies the downside. If N O I falls by ten percent, to five point eight five million, the senior gets its four million, the pref is owed its one point eight, and there's actually a tiny shortfall. The common gets nothing, and the sponsor may have to cover the difference out of pocket to keep the pref current. And if values fall, the common equity is the first to be wiped out. A twenty percent drop in value, from a hundred to eighty million, completely erases the twenty million of common equity. The pref is still whole, at the edge, and the senior lender is perfectly fine.
+
+MAYA: That's such a clean way to see it. A twenty percent drop wipes out the sponsor, but the senior lender doesn't even notice.
+
+DEV: Right, and that's why the senior lender at sixty-five percent L T V sleeps at night. They need a thirty-five percent decline in value before they lose a dollar. And that's the reason for everything in the stack: each layer is pricing the cushion beneath it.
+
+MAYA: Quick term check before we move on. The blended cost of capital.
+
+DEV: Just the weighted average. Sixty-five percent of the money at six and a quarter, fifteen percent at twelve, and then the common equity's required return, maybe fifteen to eighteen percent for a value-add deal. Lenders and investors look at the blended cost of debt plus pref, which in our example is around seven and a third percent on eighty million. And if that's above the property's cap rate, which here is six and a half, that's what's called negative leverage. Each dollar you borrow costs more than the property yields.
+
+MAYA: And negative leverage has been the story of the last couple of years.
+
+DEV: It has. When cap rates are around six and borrowing costs are around six and a half or seven, the only way the deal works is growth. That's why so many deals stalled in 2023 and 2024. Buyers couldn't make the math work without assuming income would rise.
+# SEGMENT 2 — WHO THE LENDERS ARE
+[MUSIC]
+MAYA: Okay, segment two. We've built the stack. Now let's meet the people who fill the bottom layer, the senior lenders. Because "a lender" is not one thing. Let's go through them one by one. Start with banks.
+
+DEV: Banks are the historical backbone of commercial real estate lending. Big money-center banks, regional banks, community banks. They lend from their balance sheet, meaning they keep the loan, so they care about the relationship. Typical bank loans are floating rate, shorter term, three to five years, often with some recourse to the sponsor, meaning a personal guarantee for part of the loan. And banks do a lot of construction lending.
+
+MAYA: But banks pulled back.
+
+DEV: They did, for a few reasons. After the regional bank failures in 2023, Silicon Valley Bank, Signature, First Republic, regulators got very focused on banks with heavy commercial real estate concentrations. Many banks had too much office exposure. So they slowed new lending, and spent a couple of years cleaning up their books. In CBRE's numbers, banks' share of non-agency closings fell to twenty-six percent in the third quarter, from thirty-one percent a year earlier.
+
+MAYA: Though I read that total bank lending volume has actually recovered.
+
+DEV: It has, and that's an important nuance. Share is not the same as volume. The overall pie got much bigger. Newmark reported that bank C R E lending last year was back to roughly 2019 levels. So banks are lending again, they're just not growing as fast as the alternative lenders.
+
+MAYA: Next. Life insurance companies.
+
+DEV: Life companies are the conservative aristocrats of real estate lending. Think MetLife, Prudential, New York Life. They have long-dated liabilities, life insurance policies that pay out decades from now, so they want long, stable, fixed-rate assets. They lend at low leverage, often fifty to sixty percent L T V, on high-quality stabilized properties, for terms of seven, ten, fifteen years or more. The pricing is the best you'll find. But they're picky. If your building is a trophy multifamily or a grocery-anchored shopping center with great sponsorship, the life company wants you. If it's a value-add project with forty percent vacancy, they don't want to hear from you.
+
+MAYA: The agencies.
+
+DEV: Fannie Mae and Freddie Mac, the G S Es. Plus H U D. They only do multifamily and some related housing types. They're the biggest source of apartment financing in the country. Fixed-rate, long-term, non-recourse loans, up to high leverage for good properties, and the pricing is very competitive because of the government backing. That's why when people talk about non-agency lending, like CBRE does, they're separating out these guys, because they're a world of their own.
+
+MAYA: Then CMBS.
+
+DEV: Commercial mortgage-backed securities. Here the lender originates a loan intending to sell it. Lots of loans get pooled into a trust, and the trust issues bonds in tranches, from triple-A at the top down to the unrated B-piece at the bottom. Bond investors buy those tranches. The classic structure is called a conduit deal, a pool of maybe fifty to a hundred loans of different sizes and property types.
+
+MAYA: And then there's the other kind.
+
+DEV: Single asset, single borrower. S A S B. One big loan on one big property or portfolio, securitized on its own. And this is the big story in CMBS right now. S A S B has been more than three quarters of private-label issuance this year. Fitch noted that the number of S A S B deals has tripled, with both huge trophy deals and smaller ones under two hundred fifty million coming to market.
+
+MAYA: How big is CMBS issuance this year overall?
+
+DEV: Very strong. KBRA tracked about ninety billion dollars of private-label CMBS through August, up about fifteen percent from last year, and August was the strongest single month this decade. Last year's full-year total, about a hundred fifty-eight billion, was the highest since 2007. Office was actually the biggest property type in the issuance through July, nearly a quarter of it, which sounds strange given the office distress, but it's mostly trophy office in S A S B deals. And data centers are now their own category, about five point seven billion through July.
+
+MAYA: What's the borrower's experience with a CMBS loan?
+
+DEV: You get high leverage, fixed rate, non-recourse, and often interest only. Good terms. The downside is rigidity. Once your loan is in a trust, there's no relationship banker. You deal with a master servicer while things are fine, and a special servicer if things go wrong. Want to modify the loan? It's a process. Want to prepay? You'll face defeasance or yield maintenance, which can be very expensive. Borrowers trade flexibility for proceeds and price.
+
+MAYA: And special servicing, that's a whole episode by itself.
+
+DEV: It will be. It's where you learn the most about credit, because that's where the loans that broke end up. Firms like Rialto, LNR, Midland, CW Capital, KeyBank, they run special servicing books worth billions.
+
+MAYA: Last category. The alternative lenders. Debt funds and mortgage REITs.
+
+DEV: These are the fastest-growing piece of the market. Debt funds raise money from institutional investors, pension funds, insurance companies, sovereign wealth funds, and lend it out, usually on transitional assets: properties being renovated, leased up, repositioned. They make floating rate bridge loans, typically two or three years with extension options, at higher leverage and higher spreads than a bank. Mortgage REITs do something similar but they're publicly traded. Think Blackstone Mortgage Trust, Starwood Property Trust, Arbor, Ladder.
+
+MAYA: How do they fund themselves?
+
+DEV: Great question, because this is where it gets interesting. A debt fund might make a seventy-five percent L T V loan, then finance part of that loan with a bank, through a warehouse line or a repo facility. Or it pools its loans into a C R E C L O, a commercial real estate collateralized loan obligation, which is a lot like CMBS but for floating-rate transitional loans, and the fund keeps the riskiest piece.
+
+MAYA: So the banks are still in there, just one layer removed.
+
+DEV: Exactly. A lot of what looks like banks retreating is actually banks shifting from lending to property owners directly, to lending to the debt funds who lend to the property owners. It's safer for the bank. They're lending against a diversified pool of loans with a fund's equity in front of them. Regulators like that better too.
+
+MAYA: And the C L O market is booming as well.
+
+DEV: C R E C L O issuance was about thirty-one and a half billion through August, up about forty-six percent from the year before. So the machine that funds the debt funds is running hot.
+
+MAYA: Let's put the market share numbers together. Who's lending today?
+
+DEV: In CBRE's third-quarter data, on non-agency loans, alternative lenders were forty-eight percent of closings, up from thirty-seven a year earlier. Banks twenty-six percent, down from thirty-one. Life companies and CMBS split most of the rest. In the first quarter of this year, the alternative lenders' share was even higher, fifty-three percent, with debt fund activity up something like two hundred eighty percent year over year.
+
+MAYA: And underwriting? Is all this competition loosening standards?
+
+DEV: Not much, at least not yet. CBRE's average commercial L T V in the third quarter was about sixty-four percent, actually down from about sixty-seven a year ago. Coverage eased just a touch, from one point three four to one point three two. Debt yield held at nine and a half. So the competition is showing up mostly in spreads, in pricing, not in leverage. Earlier this year, spreads on commercial loans were around a hundred eighty basis points over the benchmark, and multifamily around a hundred thirty-five.
+# SEGMENT 3 — THE MARKET RIGHT NOW
+[MUSIC]
+MAYA: Segment three. The market right now. And we have to start with rates, because this fall surprised a lot of people.
+
+DEV: It did. At its September meeting, the Fed raised the federal funds rate by a quarter point, to a range of three point seven five to four percent. That was the first hike since 2023. The vote was unanimous. Then at the October meeting, on the twenty-eighth, the Fed held steady, but the vote was ten to two, and both dissenters wanted another hike. Markets are now pricing a decent chance of one more increase at the December ninth meeting.
+
+MAYA: Why does a quarter point matter so much to real estate?
+
+DEV: Two reasons. First, most bridge loans and bank loans are floating rate. They're priced at a spread over SOFR, the secured overnight financing rate, which moves almost one for one with the fed funds rate. So every quarter-point hike flows straight into the interest bill of every floating-rate borrower. If you've got a hundred-million-dollar floating loan, a quarter point is another quarter of a million dollars a year in interest.
+
+MAYA: And the second?
+
+DEV: Psychology, honestly. For two years, the whole market was built on the idea that rates would come down and refinancing would get easier. A lot of extension decisions were made on that bet. A hike tells you the bet might not pay off, at least not soon. The Fed's own projections in September had the median official expecting the funds rate to end the year around four point one percent. That's higher than the June projections.
+
+MAYA: So let's talk about distress. Where are delinquencies?
+
+DEV: The overall Trepp CMBS delinquency rate was eight point oh two percent in September, the highest since November 2020. It dipped to seven point eight seven in October, but that was mainly one huge loan, a nine hundred seventy-five million dollar loan on showroom properties in High Point and Las Vegas, coming back current. Underneath, retail, office, and multifamily delinquencies all moved up in October.
+
+MAYA: And office specifically?
+
+DEV: Office is the epicenter. The office CMBS delinquency rate hit an all-time record of about twelve and a third percent in January this year, and in September it was back above twelve percent. To put that in perspective, that's worse than the peak during the global financial crisis. Meanwhile industrial has stayed under one percent the whole cycle. So when someone says "C R E is in trouble," the honest answer is: office is in trouble, some multifamily and some retail have problems, and industrial is fine.
+
+MAYA: And special servicing?
+
+DEV: Trepp's special servicing rate was about eleven and a half percent in September. That's the share of CMBS loan balance that's been transferred to a special servicer. Delinquency tells you who's behind on payments. Special servicing also includes loans that are current but in trouble, often because they hit maturity and can't refinance.
+
+MAYA: Which brings us to the maturity wall.
+
+DEV: Right. The Mortgage Bankers Association estimates about eight hundred seventy-five billion dollars of commercial and multifamily mortgages mature this year. That's actually down about nine percent from last year, the first decline since they started tracking it. In CMBS specifically, Trepp counted about seventy-six and a half billion of hard maturities this year, and roughly thirty-nine percent of those were scheduled in the fourth quarter. So we're in the thick of it right now.
+
+MAYA: Why was the wall so big to begin with?
+
+DEV: Because of extensions. A lot of loans that were supposed to mature in 2023 or 2024 got extended, pushed forward a year or two. People called it "extend and pretend." The idea being that lenders were pretending loans were fine, to avoid recognizing losses, hoping rates would fall.
+
+MAYA: But there's a twist on that story this year.
+
+DEV: There is. A Federal Reserve economist, David Glancy, published research in May arguing that banks mostly were not doing reckless extend and pretend. After 2022, banks actually got tougher on extensions. They demanded paydowns, fresh equity from the sponsor, recourse, and higher spreads as the price of extending. Office was the one area where the data looked a bit more like the classic pattern. So the more accurate phrase might be "extend and demand." And now industry observers are saying the era is shifting to "resolve or reset." Lenders are calling loans due, selling notes at a discount, or taking buildings back.
+
+MAYA: Let's ground this with an example. Walk me through what happens when a loan hits maturity and the borrower can't refinance.
+
+DEV: Let's use a hypothetical office building in Manhattan. In 2019 it had a three-hundred-million-dollar loan against a value of five hundred million. Sixty percent L T V. Now the building's occupancy has dropped, N O I is down thirty percent, and cap rates went from about five to over seven. The building might be worth two hundred fifty million today. The loan is bigger than the building.
+
+MAYA: So the equity is gone.
+
+DEV: The equity is wiped out on paper. The borrower has a few options. They can try to negotiate an extension, and the lender will likely say: sure, but pay down thirty million and we'll raise the spread. They can try to find rescue capital to fill the gap. They can hand back the keys, a deed in lieu of foreclosure. Or the loan goes to the special servicer, who decides between modification, foreclosure, or selling the note. Those are the four doors. Extend, recapitalize, hand back, or resolve.
+
+# SEGMENT 4 — RESCUE CAPITAL
+[MUSIC]
+MAYA: Let's talk about door number two. Recapitalization, and rescue capital. Because this is where the capital stack lesson comes back in.
+
+DEV: It's exactly the same mechanics. Imagine a sponsor owns a multifamily building with a sixty-million-dollar loan coming due. In 2021 they borrowed at seventy percent of an eighty-six-million value. Today the building's worth maybe seventy-five million, and the new lender, sizing on debt yield and coverage at today's rates, will only lend forty-eight million. That's a twelve-million-dollar gap between the old loan and the new loan.
+
+MAYA: And the sponsor doesn't have twelve million sitting around.
+
+DEV: Usually not. So they bring in preferred equity or mezzanine. That investor puts in the twelve million, gets a priority position and a twelve, thirteen, fourteen percent return, and the sponsor keeps the building and the upside if things recover. Firms describe this exactly that way: rescue capital, or gap financing, filling the hole between what was financed before and what can be financed today.
+
+MAYA: Who's doing this?
+
+DEV: A lot of firms launched dedicated vehicles. Locally, in New Jersey, Denholtz launched an opportunity fund doing five to twenty-five million dollar checks of preferred equity or mezz. Meadow Partners in New York has talked publicly about rescue preferred equity. Dwight Capital launched a rescue fund. And in New York, Urban Standard Capital launched a hundred-million-dollar gap financing strategy. It's become its own corner of the market.
+
+MAYA: From the rescue investor's perspective, what makes it a good deal?
+
+DEV: Three things. You're stepping in at today's value, not the 2021 value, so your basis is reset lower. You sit ahead of the sponsor's existing equity, so they absorb the first losses. And you have leverage over the sponsor, because the alternative for them is losing the building. That lets you negotiate strong protections: control rights, cash sweeps, maybe a share of the upside. The risk is that you misjudge the value and the building keeps falling, in which case the senior lender is safe and you're the one exposed.
+
+MAYA: So the core skill in rescue capital is the same as the core skill in lending.
+
+DEV: Underwriting. What is this building really worth, what can its income really support, and how bad can things get. That's the whole game.
+
+# WRAP
+[MUSIC]
+MAYA: Let's wrap up. Five things to remember from today. I'll start. Number one: the capital stack is ordered by priority. Cash flows down, losses hit from the top. Senior debt, then mezz or pref, then common equity.
+
+DEV: Number two: lenders size loans with three tests. L T V, debt service coverage, and debt yield. The loan is the smallest number that passes all three. Right now, averages are roughly sixty-four percent L T V, about one point three times coverage, and about a nine and a half percent debt yield.
+
+MAYA: Number three: mezz and pref fill the same gap, at similar prices, but they're different instruments. Mezz is a loan secured by the ownership interests, enforced through a fast U C C foreclosure, and governed by an intercreditor agreement. Pref is equity with priority, enforced through the operating agreement. It's a control question, not a pricing question.
+
+DEV: Number four: the lender landscape has shifted. Alternative lenders, debt funds and mortgage REITs, are close to half of non-agency lending, with banks often funding them behind the scenes. CMBS is having its best years since before the financial crisis, driven by single asset, single borrower deals.
+
+MAYA: And number five: the market is in a "resolve or reset" phase. The Fed hiked in September, office delinquency is around record highs, and loans are maturing. That creates opportunities for rescue capital and for special servicers.
+
+DEV: And if you want one interview line from today: "I think the most important trend in C R E lending right now is that the capital stack is being re-priced from the top down. Senior lenders are sizing on debt yield at today's rates, which leaves gaps that preferred equity and mezz are filling, and alternative lenders, often financed by banks, are taking share."
+
+MAYA: That's a good line. Next week, we're switching gears to an asset type: retail, and why grocery-anchored centers have quietly become one of the most sought-after properties in the market. Thanks for listening to The CRE Grind.
+
+DEV: See you next week.

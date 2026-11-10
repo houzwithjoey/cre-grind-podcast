@@ -1,0 +1,58 @@
+{
+  "site": {
+    "title": "The CRE Grind",
+    "tagline": "One commercial real estate topic per episode, deep enough to talk about in an interview.",
+    "description": "A weekly two-host podcast on commercial real estate: capital markets, asset types, and what is moving the market. Hosted by Maya and Dev. New episodes every Sunday.",
+    "author": "Houz Real Estate",
+    "url": "https://houzwithjoey.github.io/cre-grind-podcast",
+    "audio_base": "https://github.com/houzwithjoey/cre-grind-podcast/releases/download",
+    "language": "en-us",
+    "category": "Business"
+  },
+  "ticker": {
+    "as_of": "2026-11-10",
+    "items": [
+      {"label": "FED FUNDS", "value": "3.75–4.00%", "tone": "neutral"},
+      {"label": "CMBS DQ (OCT)", "value": "7.87% ▼15bp", "tone": "good"},
+      {"label": "OFFICE DQ (SEP)", "value": "12.2%", "tone": "bad"},
+      {"label": "ALT LENDER SHARE Q3", "value": "48%", "tone": "neutral"},
+      {"label": "2026 MATURITIES", "value": "$875B", "tone": "neutral"}
+    ]
+  },
+  "upcoming": [
+    {"number": 2, "date": "2026-11-15", "type": "Asset Types", "title": "Retail: Grocery Anchors, NNN Leases, and Why Retail Is Quietly Winning"},
+    {"number": 3, "date": "2026-11-22", "type": "Capital Markets", "title": "Special Servicing & Workouts: What Happens When a CMBS Loan Goes Bad"},
+    {"number": 4, "date": "2026-11-29", "type": "Market Watch", "title": "Q3 REIT Earnings Season: What Management Teams Told Us"}
+  ],
+  "episodes": [
+    {
+      "number": 1,
+      "slug": "e01-capital-stack",
+      "title": "The Capital Stack: Who's Actually Lending in Late 2026",
+      "headline": "Half of Commercial Real Estate Loans Now Come From Outside the Banks",
+      "summary": "The capital stack, explained layer by layer on one Jersey City deal, plus who is writing the checks in late 2026, what the Fed's September hike means for floating-rate borrowers, and why rescue capital is having its moment.",
+      "type": "Capital Markets",
+      "date": "2026-11-10",
+      "audio_file": "cre-grind-e01.mp3",
+      "duration_sec": 2140,
+      "size_bytes": 17118189,
+      "interview_line": "The capital stack is being re-priced from the top down: senior lenders are sizing on debt yield at today's rates, leaving gaps that pref and mezz are filling, while alternative lenders, often financed by banks, take share.",
+      "panel": {
+        "title": "Worked example · Jersey City multifamily",
+        "rows": [
+          ["Price", "$100.0M"],
+          ["NOI / cap rate", "$6.5M / 6.5%"],
+          ["Senior @ 6.25% IO", "$65.0M"],
+          ["Pref equity @ 12%", "$15.0M"],
+          ["Sponsor equity", "$20.0M"],
+          ["DSCR / debt yield", "1.60x / 10.0%"]
+        ]
+      },
+      "stats": [
+        ["48%", "Alternative lenders' share of CBRE non-agency closings, Q3 2026"],
+        ["7.87%", "Trepp CMBS delinquency rate, October 2026"],
+        ["$875B", "Commercial mortgages maturing in 2026 (MBA)"]
+      ]
+    }
+  ]
+}
