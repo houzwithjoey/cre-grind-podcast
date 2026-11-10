@@ -17,15 +17,13 @@ docs/                         ← GENERATED website served by GitHub Pages (neve
 ROADMAP.md                    ← season plan and topic queue
 ```
 
-**Audio never goes in the repo.** Each MP3 is attached to a GitHub Release tagged `eNN` (e.g. `e01`), so the repo stays small no matter how many episodes there are. Audio URL pattern:
-`https://github.com/houzwithjoey/cre-grind-podcast/releases/download/eNN/cre-grind-eNN.mp3`
+**Audio** lives in `docs/audio/cre-grind-eNN.mp3`, served by GitHub Pages, at 64 kbps mono (about 17 MB per 35 minutes). GitHub Pages sites cap at about 1 GB, which is roughly 55 episodes. When `docs/` approaches about 900 MB, move older seasons' MP3s to a new repo (e.g. `cre-grind-audio-s1`) with Pages on, and point those episodes' URLs there. Check the size with `du -sh docs`.
 
 ## Publishing a new episode
 
 1. Render the MP3 with `tools/render.py`, then re-encode for the web:
    `ffmpeg -i in.mp3 -ac 1 -ar 24000 -b:a 64k cre-grind-eNN.mp3`
-2. Create the release and upload the audio:
-   `gh release create eNN cre-grind-eNN.mp3 --title "ENN: <title>" --notes "<summary>"`
+2. Copy it to `docs/audio/cre-grind-eNN.mp3`.
 3. Add `episodes/eNN-<slug>/notes.md` and `script.txt`.
 4. Add the episode to `episodes.json` (number, slug, title, headline, summary, type, date, audio_file, duration_sec from ffprobe, size_bytes, interview_line, panel, stats). Refresh `ticker` with this week's figures and remove it from `upcoming`, adding the next topics.
 5. `python3 tools/build.py`, then commit and push. GitHub Pages redeploys automatically.

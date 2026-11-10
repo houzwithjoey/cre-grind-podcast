@@ -4,7 +4,7 @@ Usage: python3 tools/build.py
 Requires: pip install markdown pillow
 Outputs: docs/index.html, docs/episodes/index.html, docs/episodes/<slug>/index.html,
          docs/feed.xml, docs/assets/{style.css,player.js,cover.png}
-Audio is NOT stored in the repo: each MP3 is a GitHub Release asset (tag eNN).
+Audio lives in docs/audio/ (served by GitHub Pages). Keep each MP3 at 64 kbps mono.
 """
 import json, os, shutil, html, datetime
 from email.utils import format_datetime
@@ -34,7 +34,7 @@ def mmss(sec):
 
 
 def audio_url(site, ep):
-    return f"{site['audio_base']}/e{ep['number']:02d}/{ep['audio_file']}"
+    return f"{site['audio_base']}/{ep['audio_file']}"
 
 
 def page(site, data, title, body, depth, desc=None):

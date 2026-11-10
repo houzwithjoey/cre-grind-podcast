@@ -5,24 +5,59 @@
     "description": "A weekly two-host podcast on commercial real estate: capital markets, asset types, and what is moving the market. Hosted by Maya and Dev. New episodes every Sunday.",
     "author": "Houz Real Estate",
     "url": "https://houzwithjoey.github.io/cre-grind-podcast",
-    "audio_base": "https://github.com/houzwithjoey/cre-grind-podcast/releases/download",
+    "audio_base": "https://houzwithjoey.github.io/cre-grind-podcast/audio",
     "language": "en-us",
     "category": "Business"
   },
   "ticker": {
     "as_of": "2026-11-10",
     "items": [
-      {"label": "FED FUNDS", "value": "3.75–4.00%", "tone": "neutral"},
-      {"label": "CMBS DQ (OCT)", "value": "7.87% ▼15bp", "tone": "good"},
-      {"label": "OFFICE DQ (SEP)", "value": "12.2%", "tone": "bad"},
-      {"label": "ALT LENDER SHARE Q3", "value": "48%", "tone": "neutral"},
-      {"label": "2026 MATURITIES", "value": "$875B", "tone": "neutral"}
+      {
+        "label": "FED FUNDS",
+        "value": "3.75–4.00%",
+        "tone": "neutral"
+      },
+      {
+        "label": "CMBS DQ (OCT)",
+        "value": "7.87% ▼15bp",
+        "tone": "good"
+      },
+      {
+        "label": "OFFICE DQ (SEP)",
+        "value": "12.2%",
+        "tone": "bad"
+      },
+      {
+        "label": "ALT LENDER SHARE Q3",
+        "value": "48%",
+        "tone": "neutral"
+      },
+      {
+        "label": "2026 MATURITIES",
+        "value": "$875B",
+        "tone": "neutral"
+      }
     ]
   },
   "upcoming": [
-    {"number": 2, "date": "2026-11-15", "type": "Asset Types", "title": "Retail: Grocery Anchors, NNN Leases, and Why Retail Is Quietly Winning"},
-    {"number": 3, "date": "2026-11-22", "type": "Capital Markets", "title": "Special Servicing & Workouts: What Happens When a CMBS Loan Goes Bad"},
-    {"number": 4, "date": "2026-11-29", "type": "Market Watch", "title": "Q3 REIT Earnings Season: What Management Teams Told Us"}
+    {
+      "number": 2,
+      "date": "2026-11-15",
+      "type": "Asset Types",
+      "title": "Retail: Grocery Anchors, NNN Leases, and Why Retail Is Quietly Winning"
+    },
+    {
+      "number": 3,
+      "date": "2026-11-22",
+      "type": "Capital Markets",
+      "title": "Special Servicing & Workouts: What Happens When a CMBS Loan Goes Bad"
+    },
+    {
+      "number": 4,
+      "date": "2026-11-29",
+      "type": "Market Watch",
+      "title": "Q3 REIT Earnings Season: What Management Teams Told Us"
+    }
   ],
   "episodes": [
     {
@@ -40,18 +75,45 @@
       "panel": {
         "title": "Worked example · Jersey City multifamily",
         "rows": [
-          ["Price", "$100.0M"],
-          ["NOI / cap rate", "$6.5M / 6.5%"],
-          ["Senior @ 6.25% IO", "$65.0M"],
-          ["Pref equity @ 12%", "$15.0M"],
-          ["Sponsor equity", "$20.0M"],
-          ["DSCR / debt yield", "1.60x / 10.0%"]
+          [
+            "Price",
+            "$100.0M"
+          ],
+          [
+            "NOI / cap rate",
+            "$6.5M / 6.5%"
+          ],
+          [
+            "Senior @ 6.25% IO",
+            "$65.0M"
+          ],
+          [
+            "Pref equity @ 12%",
+            "$15.0M"
+          ],
+          [
+            "Sponsor equity",
+            "$20.0M"
+          ],
+          [
+            "DSCR / debt yield",
+            "1.60x / 10.0%"
+          ]
         ]
       },
       "stats": [
-        ["48%", "Alternative lenders' share of CBRE non-agency closings, Q3 2026"],
-        ["7.87%", "Trepp CMBS delinquency rate, October 2026"],
-        ["$875B", "Commercial mortgages maturing in 2026 (MBA)"]
+        [
+          "48%",
+          "Alternative lenders' share of CBRE non-agency closings, Q3 2026"
+        ],
+        [
+          "7.87%",
+          "Trepp CMBS delinquency rate, October 2026"
+        ],
+        [
+          "$875B",
+          "Commercial mortgages maturing in 2026 (MBA)"
+        ]
       ]
     }
   ]
