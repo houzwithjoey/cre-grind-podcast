@@ -33,8 +33,12 @@ def mmss(sec):
     return f"{sec // 60}:{sec % 60:02d}"
 
 
+SEASONS = {}
+
+
 def audio_url(site, ep):
-    return f"{site['audio_base']}/{ep['audio_file']}"
+    """Each season has its own audio_base, so a finished season's MP3s can move to an archive repo."""
+    return f"{SEASONS[str(ep.get('season', 1))]['audio_base']}/{ep['audio_file']}"
 
 
 def page(site, data, title, body, depth, desc=None):
@@ -91,11 +95,11 @@ def stats(ep):
 
 def archive_table(eps, upcoming, up):
     rows = "".join(
-        f'<tr><td class="num">E{e["number"]:02d}</td><td><a href="{up}episodes/{e["slug"]}/index.html">{E(e["title"])}</a></td>'
+        f'<tr><td class="num">S{e.get("season", 1)} · E{e["number"]:02d}</td><td><a href="{up}episodes/{e["slug"]}/index.html">{E(e["title"])}</a></td>'
         f'<td>{E(e["type"])}</td><td>{nice_date(e["date"], True)}</td><td>{mmss(e["duration_sec"])}</td></tr>'
         for e in eps)
     rows += "".join(
-        f'<tr class="soon"><td class="num">E{u["number"]:02d}</td><td>{E(u["title"])}</td><td>{E(u["type"])}</td>'
+        f'<tr class="soon"><td class="num">S{u.get("season", 1)} · E{u["number"]:02d}</td><td>{E(u["title"])}</td><td>{E(u["type"])}</td>'
         f'<td>{nice_date(u["date"], True)}</td><td>Upcoming</td></tr>' for u in upcoming)
     return (f'<div class="table-scroll"><table class="ep-table"><thead><tr><th>NO.</th><th>TITLE</th><th>SECTION</th>'
             f'<th>DATE</th><th>LENGTH</th></tr></thead><tbody>{rows}</tbody></table></div>')
@@ -151,7 +155,7 @@ def build_episode(site, data, eps, i):
     speeds = "".join(f'<button type="button" data-speed="{s}" aria-pressed="false">{s}×</button>' for s in ("1", "1.25", "1.5", "1.75"))
     body = f"""{masthead(up, True)}
 <section class="ep-head">
-<div class="kicker">Episode {ep['number']} · {E(ep['type'])} · {nice_date(ep['date'])} · {ep['duration_sec'] // 60} min</div>
+<div class="kicker">Season {ep.get('season', 1)} · Episode {ep['number']} · {E(ep['type'])} · {nice_date(ep['date'])} · {ep['duration_sec'] // 60} min</div>
 <h1 class="headline">{E(ep['title'])}</h1>
 <p class="dek">{E(ep['summary'])}</p>
 </section>
@@ -184,6 +188,7 @@ def build_feed(site, eps):
 <description>{E(ep['summary'])}</description>
 <enclosure url="{E(audio_url(site, ep))}" length="{ep['size_bytes']}" type="audio/mpeg"/>
 <itunes:duration>{ep['duration_sec']}</itunes:duration>
+<itunes:season>{ep.get('season', 1)}</itunes:season>
 <itunes:episode>{ep['number']}</itunes:episode>
 <itunes:explicit>false</itunes:explicit>
 </item>""")
@@ -235,6 +240,7 @@ def make_cover(path):
 def main():
     data = json.load(open(os.path.join(ROOT, "episodes.json"), encoding="utf-8"))
     site = data["site"]
+    SEASONS.update(data["seasons"])
     eps = sorted(data["episodes"], key=lambda e: e["number"], reverse=True)
     released = {e["number"] for e in eps}
     data["upcoming"] = [u for u in data.get("upcoming", []) if u["number"] not in released]

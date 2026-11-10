@@ -5,7 +5,6 @@
     "description": "A weekly two-host podcast on commercial real estate: capital markets, asset types, and what is moving the market. Hosted by Maya and Dev. New episodes every Sunday.",
     "author": "Houz Real Estate",
     "url": "https://podcast.houzrealestate.com",
-    "audio_base": "https://podcast.houzrealestate.com/audio",
     "language": "en-us",
     "category": "Business",
     "custom_domain": "podcast.houzrealestate.com"
@@ -45,19 +44,22 @@
       "number": 2,
       "date": "2026-11-15",
       "type": "Asset Types",
-      "title": "Retail: Grocery Anchors, NNN Leases, and Why Retail Is Quietly Winning"
+      "title": "Retail: Grocery Anchors, NNN Leases, and Why Retail Is Quietly Winning",
+      "season": 1
     },
     {
       "number": 3,
       "date": "2026-11-22",
       "type": "Capital Markets",
-      "title": "Special Servicing & Workouts: What Happens When a CMBS Loan Goes Bad"
+      "title": "Special Servicing & Workouts: What Happens When a CMBS Loan Goes Bad",
+      "season": 1
     },
     {
       "number": 4,
       "date": "2026-11-29",
       "type": "Market Watch",
-      "title": "Q3 REIT Earnings Season: What Management Teams Told Us"
+      "title": "Q3 REIT Earnings Season: What Management Teams Told Us",
+      "season": 1
     }
   ],
   "episodes": [
@@ -115,7 +117,14 @@
           "$875B",
           "Commercial mortgages maturing in 2026 (MBA)"
         ]
-      ]
+      ],
+      "season": 1
     }
-  ]
+  ],
+  "seasons": {
+    "1": {
+      "title": "Season 1",
+      "audio_base": "https://podcast.houzrealestate.com/audio"
+    }
+  }
 }
