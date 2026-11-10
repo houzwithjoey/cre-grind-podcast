@@ -73,7 +73,7 @@ def page(site, data, title, body, depth, desc=None):
 def masthead(up, small=False):
     return f"""<header class="masthead{' small' if small else ''}">
 <a class="name" href="{up}index.html">The CRE Grind</a>
-<nav class="nav" aria-label="Main"><a href="{up}index.html">Home</a><a href="{up}episodes/index.html">All episodes</a><a href="{up}index.html#about">About</a><a class="sub" href="{up}feed.xml">Subscribe · RSS</a></nav>
+<nav class="nav" aria-label="Main"><a href="{up}index.html">Home</a><a href="{up}episodes/index.html">All episodes</a><a href="{up}about/index.html">About</a><a class="sub" href="{up}feed.xml">Subscribe · RSS</a></nav>
 </header>"""
 
 
@@ -128,7 +128,7 @@ def build_home(site, data, eps):
 <section class="archive"><h2 class="section-label">Every episode</h2>{archive_table(eps, data['upcoming'], up)}</section>
 <section class="about" id="about">
 <div><h2 class="section-label">From the latest show notes</h2><p class="quote">“{E(latest.get('interview_line', ''))}”</p></div>
-<div><h2 class="section-label">About the show</h2><p>{E(site['description'])} Every episode ships with a worked example, five takeaways and sources. Subscribe in any podcast app with the <a href="feed.xml">RSS feed</a>.</p></div>
+<div><h2 class="section-label">About the show</h2><p>{E(site['description'])} Every episode ships with a worked example, five takeaways and sources. Subscribe in any podcast app with the <a href="feed.xml">RSS feed</a>.</p><p style="margin-top:12px"><a href="about/index.html" style="font-family:var(--sans);font-size:14px;font-weight:600;color:var(--accent)">More about the show →</a></p></div>
 </section>"""
     return page(site, data, f"{site['title']} — {site['tagline']}", body, 0)
 
@@ -172,6 +172,64 @@ def build_episode(site, data, eps, i):
 {pager}
 <script src="{up}assets/player.js"></script>"""
     return page(site, data, f"E{ep['number']:02d}: {ep['title']} — {site['title']}", body, 2, ep["summary"])
+
+
+def roadmap_rows():
+    """Parse ROADMAP.md tables into (season, number, type, topic, status) rows."""
+    import re
+    rows, season = [], 1
+    path = os.path.join(ROOT, "ROADMAP.md")
+    if not os.path.exists(path):
+        return rows
+    for line in open(path, encoding="utf-8"):
+        m = re.match(r"^## Season (\d+)", line)
+        if m:
+            season = int(m.group(1))
+        m = re.match(r"^\|\s*(\d+)\s*\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|\s*([^|]*?)\s*\|", line)
+        if m:
+            rows.append((season, int(m.group(1)), m.group(2), m.group(3), m.group(4)))
+    return rows
+
+
+def build_about(site, data, eps):
+    up = "../"
+    about = markdown.markdown(open(os.path.join(ROOT, "about.md"), encoding="utf-8").read())
+    released = {e["number"]: e for e in eps}
+    cur = max([e.get("season", 1) for e in eps] or [1])
+    lineup = ""
+    for season, n, typ, topic, status in roadmap_rows():
+        if season != cur:
+            continue
+        if n in released:
+            e = released[n]
+            title = f'<a href="{up}episodes/{e["slug"]}/index.html">{E(e["title"])}</a>'
+            when = nice_date(e["date"], True)
+            cls = ""
+        else:
+            title, when, cls = E(topic), ("Next" if status.lower().startswith("next") else "Planned"), ' class="soon"'
+        lineup += f'<tr{cls}><td class="num">E{n:02d}</td><td>{title}</td><td>{E(typ)}</td><td>{when}</td></tr>'
+    feed = f"{site['url'].rstrip('/')}/feed.xml"
+    facts = [("Format", "Two hosts, one topic"), ("Length", "30–50 min"), ("New episodes", "Sundays"),
+             ("Current season", f"Season {cur} · 24 episodes"), ("Episodes released", str(len(eps))), ("Hosts", "Maya & Dev (AI voices)")]
+    panel_html = '<div class="panel"><div class="ptitle">// The show at a glance</div>' + "".join(
+        f'<div class="prow"><span>{E(a)}</span><span>{E(b)}</span></div>' for a, b in facts) + "</div>"
+    body = f"""{masthead(up, True)}
+<section class="ep-head">
+<div class="kicker">About the show</div>
+<h1 class="headline">Commercial real estate, one topic at a time.</h1>
+<p class="dek">{E(site['description'])}</p>
+</section>
+<div class="ep-body">
+<div class="notes">{about}</div>
+<aside class="side">{panel_html}
+<div><div class="section-label" style="margin-bottom:8px">Podcast feed</div>
+<p style="margin:0 0 8px;font-family:var(--sans);font-size:14px;color:var(--muted)">Paste this into your podcast app:</p>
+<code style="display:block;font-family:var(--mono);font-size:13px;background:#f4f4f4;border:1px solid var(--rule);border-radius:6px;padding:12px;word-break:break-all">{E(feed)}</code></div>
+</aside>
+</div>
+<section class="archive"><h2 class="section-label">Season {cur} lineup</h2>
+<div class="table-scroll"><table class="ep-table"><thead><tr><th>NO.</th><th>TOPIC</th><th>TRACK</th><th>STATUS</th></tr></thead><tbody>{lineup}</tbody></table></div></section>"""
+    return page(site, data, f"About — {site['title']}", body, 1)
 
 
 def build_feed(site, eps):
@@ -256,6 +314,7 @@ def main():
 
     write("index.html", build_home(site, data, eps))
     write("episodes/index.html", build_archive(site, data, eps))
+    write("about/index.html", build_about(site, data, eps))
     for i, ep in enumerate(eps):
         write(f"episodes/{ep['slug']}/index.html", build_episode(site, data, eps, i))
     write("feed.xml", build_feed(site, eps))

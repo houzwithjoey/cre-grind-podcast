@@ -14,7 +14,8 @@ tools/
     render.py                 ← script → MP3 with Kokoro TTS
     style.css, player.js      ← site look and player behavior
 docs/                         ← GENERATED website served by GitHub Pages (never edit by hand)
-ROADMAP.md                    ← season plan and topic queue
+ROADMAP.md                    ← season plan and topic queue (also shown on the About page)
+about.md                      ← text of the About page (edit freely)
 ```
 
 **Audio** lives in `docs/audio/cre-grind-eNN.mp3`, served by GitHub Pages, at 64 kbps mono (about 17 MB per 35 minutes). Episodes are grouped into **seasons** (`season` on each episode; `seasons` in episodes.json gives each season its own `audio_base`). GitHub Pages sites should stay under about 1 GB, which is roughly 55 episodes. When `du -sh docs` nears 900 MB, archive a finished season:
