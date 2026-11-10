@@ -254,6 +254,8 @@ def main():
         write(f"episodes/{ep['slug']}/index.html", build_episode(site, data, eps, i))
     write("feed.xml", build_feed(site, eps))
     write(".nojekyll", "")
+    if site.get("custom_domain"):
+        write("CNAME", site["custom_domain"] + "\n")
     print(f"Built {len(eps)} episode page(s) into docs/")
 
 

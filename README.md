@@ -1,6 +1,6 @@
 # The CRE Grind
 
-A weekly two-host podcast on commercial real estate: one topic per episode, 30–50 minutes. Site: https://houzwithjoey.github.io/cre-grind-podcast/ · Feed: `/feed.xml`
+A weekly two-host podcast on commercial real estate: one topic per episode, 30–50 minutes. Site: https://podcast.houzrealestate.com/ · Feed: `/feed.xml`
 
 ## How the repo is organized
 

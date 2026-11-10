@@ -4,10 +4,11 @@
     "tagline": "One commercial real estate topic per episode, deep enough to talk about in an interview.",
     "description": "A weekly two-host podcast on commercial real estate: capital markets, asset types, and what is moving the market. Hosted by Maya and Dev. New episodes every Sunday.",
     "author": "Houz Real Estate",
-    "url": "https://houzwithjoey.github.io/cre-grind-podcast",
-    "audio_base": "https://houzwithjoey.github.io/cre-grind-podcast/audio",
+    "url": "https://podcast.houzrealestate.com",
+    "audio_base": "https://podcast.houzrealestate.com/audio",
     "language": "en-us",
-    "category": "Business"
+    "category": "Business",
+    "custom_domain": "podcast.houzrealestate.com"
   },
   "ticker": {
     "as_of": "2026-11-10",
