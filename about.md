@@ -34,4 +34,4 @@ Episodes rotate through three tracks: **Concepts** (how deals and capital work),
 
 ## Behind the show
 
-The CRE Grind is made by Houz Real Estate as part of a commercial real estate learning toolkit, alongside the [CRE Study Guide](https://houzrealestate.com).
+The CRE Grind is made by Houz Real Estate as part of a commercial real estate learning toolkit, alongside the [CRE Study Guide](https://houzrealestate.com) and its sister show, [CRE Deal Makers](../deal-makers/index.html): one company profile per episode.

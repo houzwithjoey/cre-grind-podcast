@@ -10,12 +10,14 @@ import numpy as np, soundfile as sf
 from kokoro_onnx import Kokoro
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-VOICES = {"MAYA": ("af_heart", 1.05), "DEV": ("am_michael", 1.03)}
+# The CRE Grind: MAYA/DEV. CRE Deal Makers: NORA (lead narrator) / THEO (co-host), a bit faster.
+VOICES = {"MAYA": ("af_heart", 1.05), "DEV": ("am_michael", 1.03),
+          "NORA": ("af_bella", 1.12), "THEO": ("am_fenrir", 1.10)}
 SR = 24000
 
 # Spoken forms for terms the TTS would mangle.
 PRON = {
-    r"\bCMBS\b": "C M B S", r"\bCRE\b": "C R E", r"\bCBRE\b": "C B R E", r"\bKBRA\b": "K B R A", r"\bHUD\b": "H U D", r"\bREITs?\b": lambda m: "reets" if m.group(0).endswith("s") else "reet",
+    r"\bCMBS\b": "C M B S", r"\bCRE\b": "C R E", r"\bMTA\b": "M T A", r"\bKKR\b": "K K R", r"\bPIMCO\b": "pim co", r"\bQTS\b": "Q T S", r"L'Oréal": "Lor-ee-al", r"\bCBRE\b": "C B R E", r"\bKBRA\b": "K B R A", r"\bHUD\b": "H U D", r"\bREITs?\b": lambda m: "reets" if m.group(0).endswith("s") else "reet",
     r"\bDSCR\b": "D S C R", r"\bLTV\b": "L T V", r"\bLTC\b": "L T C", r"\bNOI\b": "N O I", r"\bIRR\b": "I R R",
     r"\bSOFR\b": "sofer", r"\bCLOs?\b": lambda m: "C L Os" if m.group(0).endswith("s") else "C L O",
     r"\bGSEs?\b": lambda m: "G S Es" if m.group(0).endswith("s") else "G S E", r"\bFed\b": "Fed",
@@ -43,7 +45,7 @@ def parse(path):
             continue
         if line == "[MUSIC]":
             turns.append(("PAUSE", 2.0)); cur = None; continue
-        m = re.match(r"^(MAYA|DEV):\s*(.*)$", line)
+        m = re.match(r"^(" + "|".join(VOICES) + r"):\s*(.*)$", line)
         if m:
             cur = [m.group(1), m.group(2)]; turns.append(cur)
         elif cur:

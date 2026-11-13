@@ -1,0 +1,117 @@
+{
+  "show": {
+    "title": "CRE Deal Makers",
+    "tagline": "One commercial real estate company per episode.",
+    "description": "Company profiles of the firms that shape commercial real estate: their history, what they actually do, the deals that defined them, and who they work with. Narrated by Nora and Theo. New episodes on demand.",
+    "author": "Houz Real Estate",
+    "url": "https://podcast.houzrealestate.com/deal-makers",
+    "path": "deal-makers",
+    "audio_base": "https://podcast.houzrealestate.com/deal-makers/audio",
+    "language": "en-us",
+    "category": "Business"
+  },
+  "episodes": [
+    {
+      "number": 1,
+      "slug": "dm01-related",
+      "company": "Related Companies",
+      "title": "Related Companies: From Affordable Housing to Hudson Yards to AI Data Centers",
+      "headline": "The Capital Company That Builds Neighborhoods",
+      "summary": "How a firm founded in 1972 with a $10,000 loan to finance affordable housing became the developer of Hudson Yards, built a vertically integrated platform with its own fund manager, and closed a $16 billion financing for an AI data center, plus who Related works with and what to know before interviewing there.",
+      "practices": [
+        "Developer",
+        "Construction management",
+        "Owner-operator",
+        "Affordable housing",
+        "Fund manager (equity & credit)",
+        "Data centers"
+      ],
+      "date": "2026-11-12",
+      "audio_file": "deal-makers-e01-related.mp3",
+      "duration_sec": 2063,
+      "size_bytes": 16503021,
+      "interview_line": "Related started as an affordable housing financier and became the developer of Hudson Yards. It's a capital company as much as a builder: it lines up anchor tenants and institutional partners first, which is why it can do 70 Hudson Yards and a $16 billion data center at the same time.",
+      "glance": [
+        [
+          "Founded",
+          "1972, New York"
+        ],
+        [
+          "Founder",
+          "Stephen M. Ross"
+        ],
+        [
+          "Leadership",
+          "Jeff Blau (CEO), Bruce Beal Jr. (President), Kenneth Wong (COO)"
+        ],
+        [
+          "HQ",
+          "30 Hudson Yards, NYC"
+        ],
+        [
+          "Ownership",
+          "Private"
+        ],
+        [
+          "Assets",
+          "$70B+ owned or under development"
+        ],
+        [
+          "Apartments managed",
+          "~78,500 (~65% affordable)"
+        ]
+      ],
+      "deals": [
+        [
+          "Time Warner Center / Deutsche Bank Center",
+          "2003",
+          "~$1.8B mixed-use; 2.8M sf; Deutsche Bank backfilled 1.1M sf"
+        ],
+        [
+          "Hudson Yards (with Oxford Properties)",
+          "2008–",
+          "28 acres; ~$25B; 17–18M sf; largest private US development"
+        ],
+        [
+          "70 Hudson Yards",
+          "2026",
+          "$2.45B capitalization; $1.6B construction loan; Deloitte anchor"
+        ],
+        [
+          "Willets Point (with Sterling Equities)",
+          "2023–",
+          "Largest all-affordable NYC project in 40 years"
+        ],
+        [
+          "Related Digital — Saline Township, MI",
+          "2026",
+          "$16B financing; 1GW+ for Oracle/OpenAI; Blackstone equity, PIMCO-anchored debt"
+        ]
+      ],
+      "partners": [
+        [
+          "Equity partners",
+          "Oxford Properties (OMERS), Mitsui Fudosan, Mori Trust, KKR, Apollo (AREA), Blackstone"
+        ],
+        [
+          "Lenders",
+          "Wells Fargo, Bank of America, Standard Chartered, Goldman Sachs, Deutsche Bank, Carlyle, PIMCO, Fannie Mae, NYC HDC"
+        ],
+        [
+          "Development partners",
+          "Sterling Equities, Oracle & OpenAI, energyRe, MTA and NYC housing agencies"
+        ],
+        [
+          "Competitors",
+          "Tishman Speyer, Brookfield, SL Green, Vornado, Silverstein; Jonathan Rose (affordable); Vantage, QTS (data centers)"
+        ]
+      ],
+      "grind_links": [
+        [
+          "e01-capital-stack",
+          "How the senior loans, equity and partners in these deals fit together"
+        ]
+      ]
+    }
+  ]
+}

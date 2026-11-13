@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>CRE Deal Makers</title>
+<link>https://podcast.houzrealestate.com/deal-makers/</link>
+<atom:link href="https://podcast.houzrealestate.com/deal-makers/feed.xml" rel="self" type="application/rss+xml"/>
+<description>Company profiles of the firms that shape commercial real estate: their history, what they actually do, the deals that defined them, and who they work with. Narrated by Nora and Theo. New episodes on demand. Hosts are AI-generated voices.</description>
+<language>en-us</language>
+<itunes:author>Houz Real Estate</itunes:author>
+<itunes:image href="https://podcast.houzrealestate.com/deal-makers/cover.png"/>
+<itunes:category text="Business"/>
+<itunes:explicit>false</itunes:explicit>
+<itunes:type>episodic</itunes:type>
+<item>
+<title>E01: Related Companies: From Affordable Housing to Hudson Yards to AI Data Centers</title>
+<link>https://podcast.houzrealestate.com/deal-makers/episodes/dm01-related/</link>
+<guid isPermaLink="false">cre-deal-makers-e01</guid>
+<pubDate>Thu, 12 Nov 2026 16:00:00 +0000</pubDate>
+<description>How a firm founded in 1972 with a $10,000 loan to finance affordable housing became the developer of Hudson Yards, built a vertically integrated platform with its own fund manager, and closed a $16 billion financing for an AI data center, plus who Related works with and what to know before interviewing there. Hosts are AI-generated voices; researched and scripted with AI from public sources.</description>
+<enclosure url="https://podcast.houzrealestate.com/deal-makers/audio/deal-makers-e01-related.mp3" length="16503021" type="audio/mpeg"/>
+<itunes:duration>2063</itunes:duration>
+<itunes:episode>1</itunes:episode>
+<itunes:explicit>false</itunes:explicit>
+</item>
+</channel>
+</rss>

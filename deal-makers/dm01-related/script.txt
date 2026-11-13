@@ -1,0 +1,301 @@
+# CRE DEAL MAKERS — EPISODE 1 — RELATED COMPANIES
+# COLD OPEN
+NORA: In the spring of 2026, a company best known for luxury apartments and the towers of Hudson Yards closed one of the largest financings ever put together for a single technology building. Sixteen billion dollars, for a data center campus in Saline Township, Michigan, rising out of farmland about fifty miles southwest of Detroit, and built for Oracle to power artificial intelligence for OpenAI.
+
+THEO: And the same company, that same spring, was cutting ribbons on affordable apartments in Willets Point, Queens, and lining up a one point six billion dollar construction loan for a new office tower on the far West Side of Manhattan.
+
+NORA: Data centers, affordable housing, trophy office, all in the same few months. That's Related Companies. And the story of how a firm that started with a ten thousand dollar loan from the founder's mother ended up doing all three at once is the story we're telling today.
+
+[MUSIC]
+
+# INTRO
+THEO: Welcome to CRE Deal Makers, the show where we take one commercial real estate company per episode and figure out who they are, what they actually do, which deals made them, and who they work with. I'm Theo.
+
+NORA: And I'm Nora. Quick note before we start: Theo and I are AI-generated voices, and this episode was researched and written from public sources, which are all linked in the show notes. Nothing here is investment advice.
+
+THEO: Here's the plan. Nora's going to walk us through the origin story, then what Related actually does today, because it's a lot more than a developer. Then the deals: Time Warner Center, Hudson Yards, Willets Point, and that Michigan data center. Then who Related works with, where they stand right now, and finally, a section for anyone who might interview there.
+
+NORA: Let's go back to 1972.
+
+# SEGMENT 1 — ORIGIN STORY
+NORA: Stephen Ross was a tax attorney by training. He'd worked on Wall Street, including at Bear Stearns, and he'd noticed something about federal housing programs. The government was offering subsidies and tax benefits to get low and moderate income housing built. Wealthy investors wanted tax losses to shelter their other income. And developers who knew how to build that housing often didn't know how to raise the money.
+
+THEO: So he put the three together.
+
+NORA: Exactly. In 1972 he founded what was then called Related Housing Companies, with a ten thousand dollar loan from his mother. The business plan was to syndicate the tax benefits of affordable housing to investors, and use that capital to finance and build subsidized apartments. Ross has said that syndicating tax benefits is what set the company apart from the start.
+
+THEO: So Related began as a financing business as much as a building business.
+
+NORA: That's the key to understanding everything that came after. From the very beginning, Related was a capital company that happened to build real estate. By the end of the 1970s, it had built roughly five thousand affordable housing units. And Ross was already telling people he didn't want to stay in affordable housing forever.
+
+THEO: But it never really left it.
+
+NORA: It never did, and that's one of the interesting things about the firm. In the 1980s, the name changed from Related Housing Companies to just Related Companies, to reflect that it was doing more. It grew a financial services arm that became a provider of both debt and equity capital. It opened a development division in Miami. In the 1990s, when real estate went through a nasty downturn, Related used the dislocation to grow, and it built a luxury rental brand, Related Rentals, known for design and amenities.
+
+THEO: And yet today, Related says about sixty-five percent of the roughly seventy-eight thousand five hundred apartment homes it manages are in one or more affordable housing programs, with another twelve percent in workforce housing. It's widely described as the largest private owner of affordable housing in the country.
+
+NORA: So the firm has two personalities that have lived side by side for fifty years. One is the luxury developer of Columbus Circle and Hudson Yards. The other is the affordable housing financier and operator. And as we'll see, the skills from the second, working with government agencies, layering public subsidies with private capital, navigating approvals, are exactly what made the giant projects possible.
+
+THEO: Let's talk leadership, because people often think of Related as Stephen Ross's company.
+
+NORA: He founded it and he's been its largest shareholder, but the operating leadership has been in place for a while. Jeff Blau became chief executive in 2012, with Ross becoming chairman. Bruce Beal Junior is president and Kenneth Wong is chief operating officer. In July 2024, Ross stepped away from day-to-day work at Related and spun the Southeast division into a separate firm under his control called Related Ross, based in West Palm Beach. Reporting since then describes him as remaining non-executive chairman and the largest shareholder.
+
+THEO: So if you're walking in the door at Related in New York today, the people setting strategy are Blau, Beal and Wong.
+
+NORA: Right. And Blau in particular is the face of most of the big recent deals we'll talk about, including the data center business.
+
+THEO: One thing people mix up: the Miami Dolphins. Is that Related?
+
+NORA: No, and it's a good detail to get right. Ross bought into the Dolphins and their stadium personally in 2008, and the team is owned through his own separate entities, not through Related Companies. Same with his philanthropy. He's given more than a hundred million dollars to the University of Michigan, his alma mater, and its business school is named the Stephen M. Ross School of Business.
+
+THEO: But Related does have a lifestyle side.
+
+NORA: It does. In the 2000s, Related invested in Equinox, the luxury fitness club company, and Equinox became part of Related's lifestyle pitch. Related now describes itself as a real estate and lifestyle company. The idea is that if you control the gym, the restaurants, the shops and the public spaces, you're selling a neighborhood, not just square feet, and that supports higher rents across everything you own nearby.
+
+THEO: That's a theme we'll keep coming back to. Related doesn't really build buildings. It builds districts.
+
+NORA: That's the best one-line summary of the firm I've heard. Columbus Circle, Hudson Yards, CityPlace in West Palm Beach, Willets Point, The 78 in Chicago. They're all neighborhood-scale projects.
+# SEGMENT 2 — WHAT THEY ACTUALLY DO
+[MUSIC]
+THEO: Okay, segment two. What does Related actually do? Because when you say "developer," people picture a firm that buys a site, builds a building and sells it. Related is very different.
+
+NORA: Related describes itself as a vertically integrated real estate company, and that's not just marketing. Let's walk through the pieces. First, development. That's the core: site acquisition, entitlements, planning, design, financing, construction and lease-up or sales, all in-house.
+
+THEO: Including construction?
+
+NORA: Including construction management. Related Construction works with companies inside the Related family and with outside construction managers. So Related isn't just hiring a general contractor and hoping. It has its own people managing the build, which matters enormously on projects the size of Hudson Yards.
+
+THEO: Second piece?
+
+NORA: Owning and managing what it builds. This is a big difference from merchant builders. Related tends to hold its buildings for the long term and manage them, through its own property management company. The firm says it manages a portfolio of assets valued at over sixty billion dollars, and it describes total assets owned or under development at more than seventy billion.
+
+THEO: Which means its income isn't just development profit. It's rent, year after year.
+
+NORA: Right. Third piece: affordable housing, which we've talked about. Development, preservation and management of subsidized housing, often using low income housing tax credits and city or state financing.
+
+THEO: Can you walk through how one of those deals actually gets paid for? Because affordable rents can't support a normal mortgage.
+
+NORA: Sure, at a high level. Say a building costs one hundred million dollars to build, and the rents are capped at levels that families earning well below the area median can afford. Those rents might only support a mortgage of forty or fifty million dollars. So where does the rest come from? The biggest piece is usually the low income housing tax credit. The federal government gives tax credits to the project, and the developer sells those credits to investors, often big banks, who use them to reduce their own taxes. That sale raises equity for the project, sometimes a third or more of the cost.
+
+THEO: So the tax credit investors are the equity.
+
+NORA: They're a big part of it. Then city and state housing agencies provide low-interest or deferred loans to fill more of the gap, and sometimes tax-exempt bonds provide the senior mortgage at a lower rate. The developer earns a development fee, and then manages the property for the long term. It's complicated, it's paperwork-heavy, and it takes deep relationships with government agencies. Which, notice, is exactly the business Stephen Ross started in 1972: selling tax benefits to investors to fund housing.
+
+THEO: The same idea, fifty years later, at a much bigger scale.
+
+NORA: Fourth piece of the business: investment management, through Related Fund Management.
+
+THEO: Let's spend a minute on that one, because for people interested in capital markets, this is where Related looks like an investment firm.
+
+NORA: Related Fund Management, often called R F M, was launched around 2010, during the global financial crisis. Related was seeing distressed opportunities: half-finished projects, stalled developments, owners who'd run out of money. The idea was to raise outside capital to take control of those assets, then use Related's development expertise to finish them. Today R F M describes itself as a national, vertically integrated real estate private equity and credit investment manager.
+
+THEO: Private equity and credit. So R F M can both own assets and lend against them.
+
+NORA: Yes. And it earns money the way fund managers do: a management fee based on the capital it manages, plus performance fees when the investments do well. One industry profile from 2015 noted something unusual: unlike the development side, R F M did almost no ground-up development. It bought existing or stalled assets and fixed them.
+
+THEO: So within one company you've got a ground-up developer, a long-term owner-operator, an affordable housing specialist, and a fund manager doing equity and credit.
+
+NORA: And then there are the regional platforms. Related Midwest in Chicago, which is developing a big riverfront project called The 78. Related California on the West Coast. Related Beal in Boston. Related Argent in London, which came from acquiring the developer behind King's Cross. And there's Related Ross in West Palm Beach, which is now Stephen Ross's separate firm.
+
+THEO: And the newest piece is digital.
+
+NORA: In 2025, Related launched Related Digital, a data center development and investment platform. Its investment activity runs through R F M, and it partners with energyRe, a clean energy company that Related helped found in 2021. At launch, Related said Related Digital had a near-term pipeline of about forty-five billion dollars.
+
+THEO: So how does Related actually make money across all of that? Let me try to summarize and you correct me.
+
+NORA: Go for it.
+
+THEO: Development profit, meaning the gap between what it costs to build something and what it's worth when it's finished and leased. Rental income from the buildings it holds. Fees, for developing, managing and leasing for partners and for funds. Promote, meaning a bigger share of profits in joint ventures once partners hit their return targets. And for R F M, management and performance fees.
+
+NORA: That's right. And the reason the joint venture piece matters so much is that Related rarely funds a giant project alone. It brings in big equity partners, pension funds, Japanese developers, sovereign investors, and acts as the developer and operator. That lets it control projects far larger than its own balance sheet.
+
+THEO: Which brings us to the deals.
+# SEGMENT 3 — THE DEALS
+[MUSIC]
+NORA: Deal number one: the Time Warner Center, now called Deutsche Bank Center, at Columbus Circle.
+
+THEO: This is the one that made Related a household name in New York.
+
+NORA: The site was the old New York Coliseum, a convention hall at the southwest corner of Central Park. The city and the state transportation authority spent years trying to redevelop it, with failed plans and lawsuits going back to the 1980s. By 1997, five finalists were competing, including Related, Trump, Tishman Speyer and Millennium Partners. In 1998, Related teamed up with Time Warner and won, with a bid of three hundred forty-five million dollars for the site.
+
+THEO: And Time Warner wasn't just an investor, it was the tenant.
+
+NORA: Exactly. Related brought in an anchor tenant before it built, which is the whole playbook in one sentence. The project was developed with Apollo Real Estate Advisors as a partner, designed by David Childs of Skidmore, Owings and Merrill, and built between 2000 and 2003 at a reported cost of about one point eight billion dollars. It's two seven hundred fifty foot towers on a shared base, about two point eight million square feet in total.
+
+THEO: And it's not one building, it's everything.
+
+NORA: Offices, a Mandarin Oriental hotel, condominiums, the Shops at Columbus Circle with a Whole Foods in the basement, and Jazz at Lincoln Center. The building is actually split into eight separate ownership units. And the condos set records. In 2003, a penthouse sold for fifty-four point seven million dollars, then a New York record.
+
+THEO: There's a great second act to this story too.
+
+NORA: There is. Time Warner later decided to move its headquarters, and where did it go? To Related's next project, Hudson Yards. That left Related with about one point one million square feet of empty office space at Columbus Circle. Related spent a few years searching, and in 2018 Deutsche Bank signed for essentially all of it, on a lease starting in 2021, and the complex was renamed Deutsche Bank Center. In 2019, Related refinanced the office portion with a one point one billion dollar loan from Wells Fargo.
+
+THEO: So Related lost its anchor tenant to itself, and then backfilled the whole thing with a single bank.
+
+NORA: That's a very Related outcome.
+
+THEO: Deal number two. The big one. Hudson Yards.
+
+NORA: In 2008, the Metropolitan Transportation Authority picked Related to develop the air rights over the West Side rail yards, the area where Long Island Rail Road trains are stored, between roughly 30th and 34th Streets along the Hudson. Related's partner for most of the project is Oxford Properties Group, the real estate arm of the Ontario Municipal Employees Retirement System, one of Canada's big public pension plans.
+
+THEO: And "air rights" is literal. You're building over working train tracks.
+
+NORA: Which means building a platform over the rail yard first, at enormous cost, before a single tower goes up. The plan covers twenty-eight acres with roughly seventeen to eighteen million square feet of office, residential, retail, a hotel, a cultural center and public space. It's often called the largest private real estate development in United States history, and press coverage has put the total cost at around twenty-five billion dollars.
+
+THEO: How do you even finance something like that?
+
+NORA: Building by building, and almost always with an anchor tenant first. Look at the pattern. For 30 Hudson Yards, the flagship tower where Related itself has its headquarters, the anchors were Time Warner, KKR and Wells Fargo, and in a twist, those tenants were also investors in the building. In 2015, Related and Oxford closed more than five billion dollars of financing for that tower and the retail complex together.
+
+THEO: The tenants were also equity investors.
+
+NORA: Right, which aligns everyone. Then 15 Hudson Yards, the first residential tower, got one point three billion dollars of financing. Then 50 Hudson Yards, a fifty-eight story office tower expected to cost around four billion dollars, the most expensive in the city's history at the time. Related brought in Mitsui Fudosan, the big Japanese developer, which took a ninety percent equity stake in that tower, and then closed a one point five billion dollar senior construction loan. By 2017, Related and its partners had raised more than eighteen billion dollars for the first phase alone.
+
+THEO: And the recycling of capital is still happening. I saw that in November 2025, Mori Trust, another Japanese firm, bought the lower thirty-eight floors of 35 Hudson Yards for five hundred forty million dollars.
+
+NORA: That's a great example of how Related harvests value. Build it, lease it, then sell pieces to long-term investors who want stable income, and redeploy the capital.
+
+THEO: Now the newest tower. 70 Hudson Yards.
+
+NORA: This is a story about timing. While much of Manhattan was debating whether office was dead, Related signed Deloitte to roughly eight hundred thousand square feet as an anchor, moving from 30 Rockefeller Plaza, which Related described as the largest tenant relocation in New York since 2020. Related and Oxford broke ground in July 2025. Then in January 2026 they fully capitalized the seventy-two story, one point four million square foot tower with two point four five billion dollars of financing and equity.
+
+THEO: And the loan?
+
+NORA: A one point six billion dollar construction loan, fully underwritten and led by Wells Fargo, Bank of America and Standard Chartered. An Oxford executive called it the biggest construction loan of its kind in New York since 2020. Move-ins are expected in late 2028. And in May 2026, Related and Oxford also refinanced 10 Hudson Yards, home to L'Oréal USA, with a roughly one point four billion dollar loan led by Wells Fargo with Goldman Sachs participating.
+
+THEO: Let's do some quick math on 70 Hudson Yards, because I think it shows how these deals are put together.
+
+NORA: Let's do it, keeping in mind we only have the public numbers. Total capitalization, two point four five billion dollars. Of that, one point six billion is the construction loan. So the rest, roughly eight hundred fifty million dollars, is equity from Related, Oxford and institutional investors. That means the loan is about sixty-five percent of the total capital, and equity is about thirty-five percent.
+
+THEO: Which is a pretty normal split for a big construction loan.
+
+NORA: It is. And now look at the leasing. The tower is about one point four million square feet, and Deloitte is taking roughly eight hundred thousand. So before vertical construction even started, more than half the building, around fifty-seven percent, was spoken for by a single creditworthy tenant on a long lease.
+
+THEO: And that's why the banks would lend one point six billion dollars on an office tower in an environment where office lending was frozen for a lot of people.
+
+NORA: Exactly. A lender looking at a speculative office tower, with no tenants, would be very nervous. A lender looking at a tower that's more than half leased to Deloitte, being built by the developer who delivered the rest of Hudson Yards, with Oxford as a partner, is looking at a much safer loan. The anchor tenant turns a development bet into something closer to a financing exercise.
+
+THEO: And the remaining forty-three percent is the upside for Related and Oxford.
+
+NORA: That's the bet. If they lease the rest of the building at strong rents, the value of the finished tower should be well above the two point four five billion it cost to build, and that gap is development profit for the equity. If leasing is slow, the equity takes the hit first, and the lenders are protected by the Deloitte lease and the equity cushion underneath them.
+
+THEO: So for someone heading into capital markets, Hudson Yards is basically a case study in every type of financing.
+
+NORA: Construction loans, refinancings, tenant equity, foreign equity partners, condo sales, partial interest sales. It's all there. There was also a three hundred seventy-five million dollar loan from Carlyle against Edge, the observation deck at 30 Hudson Yards. Even the view got financed.
+
+THEO: And the western half still isn't built.
+
+NORA: Right. The western rail yards are the second phase. Related had partnered with Wynn Resorts on a casino-anchored proposal to compete for one of New York's downstate casino licenses. In May 2025, Wynn withdrew, and Related dropped the casino, keeping a plan with roughly four thousand new homes and expanding the planned park from five point six to six point six acres. That's one to watch.
+THEO: Deal number three. Willets Point, in Queens. Which is a very different kind of project.
+
+NORA: Very different, and it shows the affordable housing side of Related at scale. Willets Point is next to Citi Field, an area long known for auto repair shops and poor infrastructure. Related's partner there is Sterling Equities, and together they form a joint venture called Queens Development Group. Ground was broken in December 2023 on what the city called the largest all-affordable housing project in New York City in forty years.
+
+THEO: How is something like that financed? It's not the same as a trophy office tower.
+
+NORA: Not at all. It's layered public and private capital. The city's housing agencies, like the Department of Housing Preservation and Development and the Housing Development Corporation, provide subsidized financing. Banks provide construction lending and tax credit equity. Wells Fargo was part of the first phase, for example. In December 2025, the first eight hundred eighty affordable homes, called Willets Point Commons, opened applications through the city's housing lottery. In May 2026, the first residents moved in and senior housing broke ground. And that same month, Related signed a one hundred fifty-three point eight million dollar construction loan with the city for another two hundred twenty-one unit building.
+
+THEO: And this is where the 1972 skill set shows up fifty years later.
+
+NORA: Exactly. Knowing how to work with city agencies, stack subsidies and tax credits, and still deliver a project is a rare skill, and it's the same skill that got Hudson Yards approved.
+
+THEO: Deal number four, the one from the cold open. Related Digital in Michigan.
+
+NORA: In October 2025, OpenAI, Oracle and Related Digital announced a data center campus of more than one gigawatt in Saline Township, Michigan, as part of the Stargate initiative to expand artificial intelligence computing capacity in the United States. Oracle is the intended tenant, serving OpenAI. Construction started in February 2026.
+
+THEO: And the financing took a while.
+
+NORA: It did. Bloomberg described months of stop-and-start negotiations. But on April 24, 2026, Related Digital announced a sixteen billion dollar financing package. Equity came from Related Digital and from funds affiliated with Blackstone, reportedly about two billion dollars from Blackstone's side. And the debt was fixed-rate, long-term financing anchored by funds and accounts managed by PIMCO, with Bank of America selling around fourteen billion dollars of bonds, according to Bloomberg.
+
+THEO: Help me with scale. What does one gigawatt actually mean?
+
+NORA: A gigawatt is a thousand megawatts of power capacity. For a rough sense of it, that's in the range of a large power plant's output, devoted to one campus of computers. Traditional data centers were often measured in tens of megawatts. These artificial intelligence campuses are a different order of magnitude, which is why power, not land, is the hardest thing to secure.
+
+THEO: And sixteen billion dollars for one campus, compared with two point four five billion for 70 Hudson Yards.
+
+NORA: More than six times the capital of the newest Hudson Yards tower, for one site in rural Michigan. That's the shift in where the money is going right now.
+
+THEO: So the structure is a developer, a giant equity partner, and an insurance-style long-term lender, with a creditworthy tenant underneath it all.
+
+NORA: That's the same playbook as Columbus Circle, just a new asset class. Anchor tenant, institutional equity partner, big long-term debt. And it shows why Related could enter data centers quickly. The hard part of these projects isn't the building, it's the land, the power, the approvals, the community relationships and the capital. Related had done all of those at scale for decades.
+
+THEO: Though the Michigan campus has had local opposition.
+
+NORA: It has. Some residents protested over impacts on the power grid and the environment, while the developers point to jobs and tax revenue: around twenty-five hundred union construction jobs, and permanent jobs once it's running. That tension is going to follow data center developers everywhere.
+
+THEO: And quickly, Florida.
+
+NORA: Related's history in West Palm Beach goes back more than twenty-five years, to CityPlace, a seventy-two acre mixed-use development that anchors downtown. During the pandemic, as hedge funds and private equity firms moved south, Related built Class A office there, like 360 Rosemary, which was completed and fully leased by 2021, and One Flagler. That Southeast business is now Related Ross, Stephen Ross's separate firm, which reportedly owns all of the operating Class A office space in West Palm Beach and about eighty-five percent of what exists or is under construction.
+
+# SEGMENT 4 — THE NETWORK
+[MUSIC]
+THEO: Segment four. Who does Related work with? Because if you want to understand a firm, you look at its partners.
+
+NORA: Let's go by category. Equity partners first. Oxford Properties, the Canadian pension-backed investor, is the most important: the Hudson Yards partner for more than a decade. Japanese developers and investors, Mitsui Fudosan at 50 Hudson Yards and Mori Trust at 35 Hudson Yards. KKR, Time Warner and Wells Fargo as investor-tenants at 30 Hudson Yards. Apollo's real estate arm at Columbus Circle. And now Blackstone, on the Michigan data center.
+
+THEO: Lenders?
+
+NORA: Wells Fargo shows up again and again: Hudson Yards construction loans, the Deutsche Bank Center refinancing, the 10 Hudson Yards refinancing and the Willets Point affordable housing. Bank of America and Standard Chartered on 70 Hudson Yards. Goldman Sachs on the 10 Hudson Yards refi. Deutsche Bank and Bank of China financed office space at Columbus Circle years ago. Carlyle on the observation deck. PIMCO-managed funds on the data center. And on the affordable side, city agencies and Fannie Mae. For example, in early 2026 Related refinanced a six hundred nineteen unit rental building in Long Island City with a one hundred thirty-six point five million dollar loan through the city's Housing Development Corporation, assigned to Fannie Mae.
+
+THEO: Development partners?
+
+NORA: Sterling Equities at Willets Point. Wynn Resorts, until it withdrew from the casino bid. Oracle and OpenAI on the data center side. And energyRe for power. Plus the public sector itself, the MTA, the city's economic development and housing agencies, which are effectively partners on Related's largest projects.
+
+THEO: And competitors?
+
+NORA: In New York trophy development, the usual names are Tishman Speyer, Brookfield, SL Green, Vornado and Silverstein. In affordable housing, firms like L and M Development and Jonathan Rose Companies. In fact, earlier this year Jonathan Rose paid about fifty point six million dollars to buy a one hundred twenty-six unit rental from Related in Inwood. And in data centers, developers like Vantage, QTS and others.
+# SEGMENT 5 — WHERE THEY STAND NOW
+[MUSIC]
+THEO: Segment five. Where does Related stand right now, at the end of 2026?
+
+NORA: I'd frame it as three big bets running at the same time. Bet one: the best office still wins. While office distress dominates the headlines, Related is building a brand new tower, 70 Hudson Yards, with a giant anchor tenant and bank financing that many developers can't get right now. The bet is that top-quality, new, well-located space keeps attracting tenants, even while older buildings struggle.
+
+THEO: Bet two?
+
+NORA: Housing, both luxury and affordable. Willets Point is delivering homes, the western rail yards plan now centers on housing after the casino was dropped, and Related keeps refinancing and recycling its residential portfolio. And bet three: digital infrastructure. Related Digital is an attempt to apply the Hudson Yards playbook to the artificial intelligence buildout.
+
+THEO: What should someone watch over the next year?
+
+NORA: Four things. First, whether Related Digital lands more campuses after Michigan, and how the financing markets treat these huge projects. Second, the western rail yards: when, and in what form, phase two of Hudson Yards actually starts. Third, leasing at 70 Hudson Yards beyond Deloitte, since top-floor leasing was expected to start this year. And fourth, how Related keeps recycling capital, selling stakes in stabilized buildings, like the 35 Hudson Yards office floors, to fund the next projects.
+
+# SEGMENT 6 — IF YOU'RE INTERVIEWING THERE
+[MUSIC]
+THEO: Our last segment. Let's say you've got an interview at Related, or at R F M, next week. What should you know?
+
+NORA: First, understand the model. Related isn't a fund that happens to own buildings, and it isn't a builder that sells everything. It's a long-term, vertically integrated owner and developer that uses partners' capital to do projects bigger than its own balance sheet, plus an investment management arm. If you can explain that clearly in one breath, you're ahead of most candidates.
+
+THEO: Second?
+
+NORA: Know three or four recent deals cold, with numbers. The two point four five billion dollar capitalization of 70 Hudson Yards, with the one point six billion dollar construction loan led by Wells Fargo, Bank of America and Standard Chartered, and Deloitte as anchor. The sixteen billion dollar financing for the Michigan data center, with Blackstone equity and PIMCO-anchored debt. Willets Point as the largest all-affordable project in the city in forty years. And the one point four billion dollar refinancing of 10 Hudson Yards.
+
+THEO: Third?
+
+NORA: Have a view. A good interview question to be ready for is, "Why would a residential and mixed-use developer get into data centers?" A strong answer connects it to what Related already does well: entitlements, power and infrastructure, public-private partnerships, anchor tenants and raising enormous amounts of capital.
+
+THEO: And good questions to ask them?
+
+NORA: A few that show you've done the work. How does the firm decide whether a deal belongs on Related's balance sheet, in an R F M fund, or in a joint venture? How does Related Digital share people and processes with the core development business? On the affordable side, how is the financing mix changing as public subsidy programs evolve? And for R F M, how is the credit strategy positioned given that banks have pulled back from some lending?
+
+THEO: Those are good, because they're about how the firm thinks, not just what it owns.
+
+NORA: One more thing worth understanding is how different the jobs can be inside a company like this. On the development side, you're working on site acquisition, approvals, design, budgets and financing for specific projects, often for years on one project. In asset management, you're running buildings that are already built, leasing, budgets, refinancings, and deciding when to sell a stake. In affordable housing, you're working with tax credits and government agencies. And at R F M, you're closer to a classic investment role, underwriting acquisitions or loans for funds with outside investors.
+
+THEO: So "I want to work at Related" isn't a complete answer.
+
+NORA: Right. Know which part of Related you're interested in, and why. If you're interested in credit, R F M's credit strategy is the natural fit. If you love complex deals and public-private work, development or affordable. If you like financial analysis on existing assets, asset management. Interviewers will respect someone who can say which part of the machine they want to be in.
+
+# WRAP
+[MUSIC]
+THEO: Let's wrap up with five things to remember about Related. I'll start. One: Related began in 1972 as an affordable housing financier, founded by Stephen Ross with a ten thousand dollar loan from his mother, and it's still one of the country's largest affordable housing owners.
+
+NORA: Two: it's vertically integrated. Development, construction management, property management, affordable housing and investment management through Related Fund Management, all under one roof, with more than seventy billion dollars of assets owned or under development.
+
+THEO: Three: its signature playbook is anchor tenant first, institutional partner second, big financing third. Time Warner at Columbus Circle, Time Warner, KKR and Wells Fargo at 30 Hudson Yards, Deloitte at 70 Hudson Yards, Oracle in Michigan.
+
+NORA: Four: its network is deep and repeat. Oxford Properties as the long-term Hudson Yards partner, Wells Fargo as a lender over and over, Japanese investors buying into finished towers, and now Blackstone and PIMCO in data centers.
+
+THEO: And five: Related is running three bets at once: new trophy office, housing at both ends of the market, and digital infrastructure through Related Digital.
+
+NORA: And the one-line version, if someone asks you about Related in a networking chat: "Related started as an affordable housing financier and became the developer of Hudson Yards. What ties it together is that it's a capital company as much as a builder. It lines up anchor tenants and institutional partners first, and that's why it can do projects like 70 Hudson Yards and a sixteen billion dollar data center at the same time."
+
+THEO: That's CRE Deal Makers. All sources are in the show notes. Thanks for listening.
+
+NORA: See you next time.

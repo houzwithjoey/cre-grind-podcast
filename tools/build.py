@@ -41,7 +41,7 @@ def audio_url(site, ep):
     return f"{SEASONS[str(ep.get('season', 1))]['audio_base']}/{ep['audio_file']}"
 
 
-def page(site, data, title, body, depth, desc=None):
+def page(site, data, title, body, depth, desc=None, feed="feed.xml"):
     up = "../" * depth
     t = data["ticker"]
     items = "".join(
@@ -54,7 +54,7 @@ def page(site, data, title, body, depth, desc=None):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{E(title)}</title>
 <meta name="description" content="{E(desc or site['description'])}">
-<link rel="alternate" type="application/rss+xml" title="{E(site['title'])}" href="{up}feed.xml">
+<link rel="alternate" type="application/rss+xml" title="{E(site['title'])}" href="{up}{feed}">
 <link rel="icon" href="{up}assets/cover.png">
 {FONTS}
 <link rel="stylesheet" href="{up}assets/style.css">
@@ -63,7 +63,7 @@ def page(site, data, title, body, depth, desc=None):
 <div class="ticker" aria-label="Market snapshot"><div class="ticker-row">{items}<span class="asof">AS OF {E(nice_date(t['as_of'], True).upper())}</span></div></div>
 <div class="wrap">
 {body}
-<footer><span>{E(site['title'])} · by {E(site['author'])}</span><span>AI-voiced hosts · Sources in every episode's notes · <a href="{up}feed.xml">RSS</a></span></footer>
+<footer><span>{E(site['title'])} · by {E(site['author'])}</span><span>AI-voiced hosts · Sources in every episode's notes · <a href="{up}{feed}">RSS</a></span></footer>
 </div>
 </body>
 </html>
@@ -73,7 +73,7 @@ def page(site, data, title, body, depth, desc=None):
 def masthead(up, small=False):
     return f"""<header class="masthead{' small' if small else ''}">
 <a class="name" href="{up}index.html">The CRE Grind</a>
-<nav class="nav" aria-label="Main"><a href="{up}index.html">Home</a><a href="{up}episodes/index.html">All episodes</a><a href="{up}about/index.html">About</a><a class="sub" href="{up}feed.xml">Subscribe · RSS</a></nav>
+<nav class="nav" aria-label="Main"><a href="{up}index.html">Home</a><a href="{up}episodes/index.html">All episodes</a><a href="{up}deal-makers/index.html">Deal Makers</a><a href="{up}about/index.html">About</a><a class="sub" href="{up}feed.xml">Subscribe · RSS</a></nav>
 </header>"""
 
 
@@ -112,6 +112,13 @@ def build_home(site, data, eps):
     upcoming = "".join(
         f'<div><span class="kicker">{E(d(u["date"]).strftime("%A, %b %-d"))} · {E(u["type"])}</span><h3>{E(u["title"])}</h3></div>'
         for u in data["upcoming"][:3])
+    dm_promo = ""
+    dmp = os.path.join(ROOT, "deal-makers.json")
+    if os.path.exists(dmp):
+        dme = sorted(json.load(open(dmp, encoding="utf-8"))["episodes"], key=lambda e: e["number"])[-1]
+        dm_promo = f'''<section class="upcoming" style="display:flex;flex-wrap:wrap;gap:24px;align-items:center;justify-content:space-between">
+<div style="flex:1 1 420px"><span class="kicker">Also from Houz · CRE Deal Makers</span><h3 style="margin:6px 0 6px;font-family:var(--serif-display);font-size:28px">{E(dme["company"])}: {E(dme["headline"])}</h3><p style="margin:0;font-size:16px;color:#444">One commercial real estate company per episode: history, business lines, defining deals and partners.</p></div>
+<a href="deal-makers/episodes/{dme["slug"]}/index.html" style="font-family:var(--sans);font-weight:600;font-size:14px;text-decoration:none;border:2px solid var(--ink);padding:12px 18px">Listen to the profile →</a></section>'''
     body = f"""<div class="dateline"><span>Latest episode: {nice_date(latest['date'])}</span><span>A weekly podcast · New episodes Sundays</span></div>
 {masthead(up)}
 <section class="lead">
@@ -125,6 +132,7 @@ def build_home(site, data, eps):
 <aside>{stats(latest)}</aside>
 </section>
 <section class="upcoming"><h2 class="section-label">Coming up</h2><div class="cols">{upcoming}</div></section>
+{dm_promo}
 <section class="archive"><h2 class="section-label">Every episode</h2>{archive_table(eps, data['upcoming'], up)}</section>
 <section class="about" id="about">
 <div><h2 class="section-label">From the latest show notes</h2><p class="quote">“{E(latest.get('interview_line', ''))}”</p></div>
@@ -318,6 +326,11 @@ def main():
     for i, ep in enumerate(eps):
         write(f"episodes/{ep['slug']}/index.html", build_episode(site, data, eps, i))
     write("feed.xml", build_feed(site, eps))
+    import sys; sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import deal_makers
+    def dm_page(show, grind, title, body, depth, desc=None):
+        return page(show, grind, title, body, depth, desc, feed="deal-makers/feed.xml")
+    deal_makers.build(ROOT, OUT, data, dm_page, nice_date, write)
     write(".nojekyll", "")
     if site.get("custom_domain"):
         write("CNAME", site["custom_domain"] + "\n")
