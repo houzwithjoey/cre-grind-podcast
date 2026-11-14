@@ -17,7 +17,7 @@ SR = 24000
 
 # Spoken forms for terms the TTS would mangle.
 PRON = {
-    r"\bCMBS\b": "C M B S", r"\bCRE\b": "C R E", r"\bMTA\b": "M T A", r"\bKKR\b": "K K R", r"\bPIMCO\b": "pim co", r"\bQTS\b": "Q T S", r"L'Oréal": "Lor-ee-al", r"\bCBRE\b": "C B R E", r"\bKBRA\b": "K B R A", r"\bHUD\b": "H U D", r"\bREITs?\b": lambda m: "reets" if m.group(0).endswith("s") else "reet",
+    r"\bCMBS\b": "C M B S", r"\bCRE\b": "C R E", r"\b467-m\b": "four sixty-seven M", r"\b485-x\b": "four eighty-five X", r"\bGIC\b": "G I C", r"\bTPG\b": "T P G", r"\bMSD\b": "M S D", r"\bBDT\b": "B D T", r"\bBNY\b": "B N Y", r"\bPAC\b": "pack", r"\bSoMA\b": "Soma", r"\bWrey\b": "Ray", r"CetraRuddy": "Cetra Ruddy", r"Fudosan": "Foo-doh-sahn",  r"\bMTA\b": "M T A", r"\bKKR\b": "K K R", r"\bPIMCO\b": "pim co", r"\bQTS\b": "Q T S", r"L'Oréal": "Lor-ee-al", r"\bCBRE\b": "C B R E", r"\bKBRA\b": "K B R A", r"\bHUD\b": "H U D", r"\bREITs?\b": lambda m: "reets" if m.group(0).endswith("s") else "reet",
     r"\bDSCR\b": "D S C R", r"\bLTV\b": "L T V", r"\bLTC\b": "L T C", r"\bNOI\b": "N O I", r"\bIRR\b": "I R R",
     r"\bSOFR\b": "sofer", r"\bCLOs?\b": lambda m: "C L Os" if m.group(0).endswith("s") else "C L O",
     r"\bGSEs?\b": lambda m: "G S Es" if m.group(0).endswith("s") else "G S E", r"\bFed\b": "Fed",

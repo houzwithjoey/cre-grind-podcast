@@ -29,7 +29,7 @@
       "date": "2026-11-12",
       "audio_file": "deal-makers-e01-related.mp3",
       "duration_sec": 2063,
-      "size_bytes": 16503021,
+      "size_bytes": 16504173,
       "interview_line": "Related started as an affordable housing financier and became the developer of Hudson Yards. It's a capital company as much as a builder: it lines up anchor tenants and institutional partners first, which is why it can do 70 Hudson Yards and a $16 billion data center at the same time.",
       "glance": [
         [
@@ -110,6 +110,112 @@
         [
           "e01-capital-stack",
           "How the senior loans, equity and partners in these deals fit together"
+        ]
+      ]
+    },
+    {
+      "number": 2,
+      "slug": "dm02-gfp",
+      "company": "GFP Real Estate & GFP Development",
+      "title": "GFP: The Family Landlord Turning Wall Street Offices Into Homes",
+      "headline": "The Family Firm Behind America's Biggest Office-to-Residential Conversions",
+      "summary": "How the Gural family's 1952 Newmark roots became GFP Real Estate, why it split off GFP Development in 2026, and how it turned obsolete Lower Manhattan towers into SoMA (1,320 units), Wrey (788 units) and 40 Exchange Place, plus the Flatiron condos, 100 Gold Street and the Chrysler Building that got away.",
+      "practices": [
+        "Owner-operator",
+        "Property management",
+        "Office-to-residential conversion",
+        "Developer",
+        "JV partner with PE"
+      ],
+      "date": "2026-11-14",
+      "audio_file": "deal-makers-e02-gfp.mp3",
+      "duration_sec": 2002,
+      "size_bytes": 16018221,
+      "interview_line": "GFP is a seventy-year-old family landlord that turned office distress into a housing pipeline: it buys obsolete Lower Manhattan towers at a fraction of their old value, partners with firms like TPG and Rockwood, and uses the 467-m tax incentive to make conversions like SoMA, the country's largest, pencil.",
+      "glance": [
+        [
+          "Founded",
+          "1952 (Aaron Gural buys Newmark & Co.)"
+        ],
+        [
+          "Renamed",
+          "GFP (Gural Family Properties), 2017"
+        ],
+        [
+          "Leadership",
+          "Jeffrey Gural (Chairman & CEO, GFP RE); Eric Gural (Principal); Brian Steinwurtzel (CEO, GFP Development)"
+        ],
+        [
+          "Ownership",
+          "Private, family-owned"
+        ],
+        [
+          "Portfolio",
+          "~17.5–19M sf, 70+ buildings"
+        ],
+        [
+          "Tenants",
+          "2,500+ (about one-third nonprofits)"
+        ],
+        [
+          "FiDi pipeline",
+          "~2,500 homes done or underway, plus ~4,000 at 100 Gold"
+        ]
+      ],
+      "deals": [
+        [
+          "SoMA — 25 Water St (with Metro Loft, Rockwood)",
+          "2022–25",
+          "Bought $251M; $536M construction loan (MSD, Apollo); 1,320 units; first 467-m deal; $835M refi (Apollo, GIC)"
+        ],
+        [
+          "Wrey — 222 Broadway (with TPG)",
+          "2024–26",
+          "Bought $147.5M vs. $502M in 2014; ~$288M construction financing (BDT & MSD); 788 units"
+        ],
+        [
+          "40 Exchange Place",
+          "2026",
+          "Owned since 2015 ($115M); $191.5M construction loan (Derby Lane); 382 units"
+        ],
+        [
+          "Flatiron Building (with Brodsky, Sorgente)",
+          "2023–26",
+          "GFP-led group wins auction at ~$161M; ~40 luxury condos; first residents Nov 2026"
+        ],
+        [
+          "100 Gold Street (city-owned)",
+          "2025–",
+          "Selected by NYCEDC; ~4,000 homes, ~1,000 permanently affordable"
+        ],
+        [
+          "Chrysler Building (lost)",
+          "2026",
+          "Advanced talks in March; Tishman Speyer and PSP won the ground lease in October"
+        ]
+      ],
+      "partners": [
+        [
+          "Equity partners",
+          "TPG Real Estate, Rockwood Capital, BDT & MSD Partners, Meadow Partners"
+        ],
+        [
+          "Lenders",
+          "MSD Capital, Apollo, GIC, BDT & MSD, Derby Lane, Square Mile, Apple Bank, BNY Mellon"
+        ],
+        [
+          "Development partners",
+          "Metro Loft (Nathan Berman), Brodsky Organization, Sorgente Group, CetraRuddy, NYCEDC & HPD; Newmark arranges financing"
+        ],
+        [
+          "Competitors",
+          "Metro Loft (also a partner), Vanbarton Group, the One Wall Street team, other FiDi converters"
+        ]
+      ],
+      "grind_links": [
+        [
+          "e01-capital-stack",
+          "Bridge and construction lenders, refinancing and private credit, the same tools behind these conversions"
         ]
       ]
     }
